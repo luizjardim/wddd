@@ -2,6 +2,9 @@
 
 Sistema de Eventos encomendado pela morena.
 
+[![Build Status](https://travis-ci.org/luizjardim/wddd.svg?branch=master)](https://travis-ci.org/luizjardim/wdd
+[![Code Health](https://landscape.io/github/luizjardim/wddd/master/landscape.svg?style=flat)](https://landscape.io/github/luizjardim/wddd/master)
+
 ## Como desenvolver?
 
 1. Clone o repositório.
