@@ -1,5 +1,4 @@
 from django.conf import settings
-from django.contrib import messages
 from django.core import mail
 
 from django.http import HttpResponseRedirect, Http404
@@ -45,6 +44,6 @@ def detail(request, pk):
         subscription = Subscription.objects.get(pk=pk)
     except Subscription.DoesNotExist:
         raise Http404
-    
+
     return render(request, 'subscriptions/subscription_detail.html',
                   {'subscription': subscription})
